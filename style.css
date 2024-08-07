@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    font-family: "Pangolin", cursive;
+    background-color: 	#ffeead;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_main{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 50px;
+    height: 80%;
+    width: 80%;
+}
+
+.question{
+    font-size: 120px;
+}
+
+.answers{
+    display: flex;
+}
+
+.answer{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.start_btn{
+    font-size: 90px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 340px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: 	#88d8b0;
+}
+
+.start_btn:hover{
+    background-color: #96ceb4;
+    box-shadow: 0px 10px 10px 0px 	#ff6f69;
+}
+
+.statistics {
+    margin-bottom: 20px; 
+    font-size: 24px;     
+    color: #333;        
+    text-align: center; 
+}
+
+.container_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.music-control {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.music-control img{
+    width: 70px;
+    height: 70px;
+}
