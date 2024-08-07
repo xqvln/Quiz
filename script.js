@@ -102,6 +102,9 @@ function shuffleArray(array) {
     }
 }
 
+document.addEventListener('click', function(){
+    audio.play();
+});
 
 musicControl.addEventListener('click', function () {
     if (audio.paused) {
