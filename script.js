@@ -35,8 +35,8 @@ this.answers = [
             this.answer_correct,
             randint(this.answer_correct - 5, this.answer_correct +10),
             randint(this.answer_correct - 7, this.answer_correct +5),
-            randint(this.answer_correct + 2, this.answer_correct -3),
-            randint(this.answer_correct + 5, this.answer_correct -3 ),
+            randint(this.answer_correct + 10, this.answer_correct -3),
+            randint(this.answer_correct + 5, this.answer_correct -6 ),
         ];
          shuffleArray(this.answers);
     }
@@ -63,7 +63,7 @@ btn.addEventListener('click', function(){
     statistics.innerHTML = `Ви дали ${correct_answers_given} правильних відповідей із ${total_answers_given}`
     container_main.style.display="none"
     container_start.style.display="flex"
-}, 6000)
+}, 60000)
 })
 
 
